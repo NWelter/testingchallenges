@@ -1,0 +1,18 @@
+TEST INPUT:
+
+1. Empty value (" ")
+2. Average value -positive ("Anna")
+3. Minimum value - 1 letter ("a")
+4. Non ASCII ("Żółwicki")
+5. Other chars then alphabetic ("Żółwicki")
+6. Space in the middle ("Anna Maria")
+7. More than maximum value - over 31 chars ("niechtobedziekapitanbombaalboinnyczlowiekjaniewiemwsumie")
+8. Maximum value - 30 chars ("qwertyuiopasdfghjklzxcvbnmqwer")
+9. Space in the beginning (" Anna")
+10. Space at the end ("Anna ")
+11. Only spaces ("   ")
+12. HTML tag ("<type>")
+13. basic XSS ("<script>")
+14. SQL injection (" ' ")
+15. check a page source - devtools/insert a hidden code in <!--comment -->
+16. find missing .css
